@@ -1,3 +1,7 @@
+h1, h2, h3, h4, p, li, section, span, div{
+  font-family: 'Ubuntu', sans-serif;
+  color: #555555;
+}
 
 ul {
   padding: 0;
