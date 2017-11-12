@@ -3,11 +3,6 @@ ul {
   padding: 0;
 }
 
-ul.row-list {
-  display: flex;
-  justify-content: space-around;
-}
-
 li {
   list-style-type: none;
 }
@@ -29,10 +24,29 @@ section {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 section:nth-child(odd) {
   background-color: #cfeef1;
+}
+
+.section-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.row-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.row-list.team {
+  justify-content: center;
 }
 
 .tech-logo-container {
@@ -66,13 +80,6 @@ section:nth-child(odd) {
   width: 300px;
   align-items: center;
   padding: 30px;
-}
-
-.row-list {
-  flex-wrap: wrap;
-}
-
-.service {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
@@ -89,3 +96,11 @@ section:nth-child(odd) {
   color: #999999;
 }
 
+.team-member{
+  width: 300px;
+  margin: 0 30px;
+}
+
+.team-member img {
+  height: 250px;
+}
