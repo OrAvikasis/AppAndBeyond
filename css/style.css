@@ -1,4 +1,4 @@
-h1, h2, h3, h4, p, li, section, span, div{
+h1, h2, h3, h4, p, li, section, span, div, button, textarea, input {
   font-family: 'Ubuntu', sans-serif;
   color: #555555;
 }
@@ -70,11 +70,12 @@ section:nth-child(odd) {
   height: 90px;
 }
 
-.tech-logo-container h3 {
-  color: #999999;
+.tech-logo-container h3, .service h3, .service p {
+  color: #888888;
+  transition: color 0.3s ease;
 }
 
-.tech-logo-container:hover h3 {
+.tech-logo-container:hover h3, .service:hover h3, .service:hover p {
   color: #555555;
 }
 
@@ -96,10 +97,6 @@ section:nth-child(odd) {
   filter: grayscale(0%);
 }
 
-.service h3 {
-  color: #999999;
-}
-
 .team-member{
   width: 300px;
   margin: 0 30px;
@@ -107,4 +104,42 @@ section:nth-child(odd) {
 
 .team-member img {
   height: 250px;
+}
+
+.form-card{
+  width: 80%;
+  padding: 30px 0;
+  align-self: center;
+}
+
+#submit-button {
+  background-color: #cfeef1;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  border-radius: 0.3em;
+}
+
+#submit-button:hover {
+  background-color: #a6dee3;
+}
+
+#submit-button:active {
+  background-color: #48878d;
+  color: white;
+}
+
+.field {
+  width: 70%;
+  background-color: #cfeef1;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid #c4e1e3;
+  resize: none;
 }
