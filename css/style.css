@@ -3,6 +3,10 @@ h1, h2, h3, h4, p, li, section, span, div, button, textarea, input {
   color: #555555;
 }
 
+input::placeholder, textarea::placeholder  {
+  color: #999999;
+}
+
 ul {
   padding: 0;
 }
@@ -112,7 +116,7 @@ section:nth-child(odd) {
   align-self: center;
 }
 
-#submit-button {
+.blue-button {
   background-color: #cfeef1;
   padding: 16px 32px;
   text-align: center;
@@ -126,11 +130,11 @@ section:nth-child(odd) {
   border-radius: 0.3em;
 }
 
-#submit-button:hover {
+.blue-button:hover {
   background-color: #a6dee3;
 }
 
-#submit-button:active {
+.blue-button:active {
   background-color: #48878d;
   color: white;
 }
