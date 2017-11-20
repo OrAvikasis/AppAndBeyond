@@ -2,10 +2,12 @@
 <html>
     <head>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.3/tiny-slider.css">      
       <link rel="icon" href="http://example.com/favicon.png">
       <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.3/min/tiny-slider.js"></script>      
       <title>App And Beyond</title>
     </head>
     
@@ -13,8 +15,22 @@
     <body>
       <div class='content'>
           <section>
-
-            
+              <div class="header-slider">
+                  <div class='slide-item'>
+                    <div style=''>
+                        <h3>We rule the world</h3>
+                        <img class="sliders" style='width: 200px' src='images/slider1.png'/>
+                    </div>
+                    
+                  </div>
+                  <div class='slide-item'>2222</div>
+                  <div class='slide-item'>3333</div>
+                </div>
+           <!-- <ul class='my-nav'>
+              <li>+</li>
+              <li>+</li>
+              <li>+</li>
+            </ul> -->
           </section>
           <section>
             <h2>Technologies (logos)</h2>
@@ -46,32 +62,32 @@
             <div class='section-content'>
               <ul class="row-list">
                 <li class="service">
-                  <i class="fa fa-cloud-upload" aria-hidden="true" style="font-size:45px;color:#0080FF" ></i>
+                  <i class="fa fa-cloud-upload" aria-hidden="true"></i>
                   <h3>Deployment</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </li>
                 <li class="service">
-                    <i class="fa fa-cubes" aria-hidden="true" style="font-size:45px;color:#FF8000"></i>                  
+                    <i class="fa fa-cubes" aria-hidden="true"></i>                  
                     <h3>Scaling</h3>
                     <p>Do eiusmod tempor incididunt ut labore </p>
                 </li>
                 <li class="service">
-                    <i class="fa fa-hand-peace-o" aria-hidden="true" style="font-size:45px;color:#5FB404"></i>
+                    <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
                     <h3>Performance</h3>
                     <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                 </li>
                 <li class="service">
-                    <i class="fa fa-user-circle-o" aria-hidden="true" style="font-size:45px;color:#08298A"></i> 
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i> 
                     <h3>UX/UI Design</h3>
                     <p>Excepteur sint occaecat cupidatat non proident</p>
                 </li>
                 <li class="service">
-                    <i class="fa fa-paint-brush" aria-hidden="true" style="font-size:45px;color:#A901DB"></i>                  
+                    <i class="fa fa-paint-brush" aria-hidden="true"></i>                  
                     <h3>Graphic Design</h3>
                     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </li>
                 <li class="service">
-                    <i class="fa fa-cogs" aria-hidden="true" style="font-size:45px;color:#04B486"></i>                  
+                    <i class="fa fa-cogs" aria-hidden="true"></i>                  
                     <h3>Web & Mobile Development</h3>
                     <p>Sit amet nulla facilisi morbi tempus iaculis urna id volutpat</p>
                 </li>
@@ -120,7 +136,23 @@
              </div>
           </section>
       </div>
-        
+      <script>
+         var slider = tns({
+           container: "vertical",
+           axis: "vertical",
+           speed: 400,
+           items: 1,
+           slideBy: 'page',
+           autoplay: true,
+           controls: false,
+           autoplayButtonOutput: false,
+          }); 
+          
+
+          // NOTE: 
+          // prior to v2.0.2, options "container", "controlsContainer", "navContainer" and "autoplayButton" still need to be DOM elements.
+          // e.g. container: document.querySelector('.my-slider'),
+        </script>
             
     </body>
     

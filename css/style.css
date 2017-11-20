@@ -89,16 +89,36 @@ section:nth-child(odd) {
   width: 300px;
   align-items: center;
   padding: 30px;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 0.3s ease;
 }
 
-.service:hover {
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%);
+.service i.fa {
+  font-size: 45px;
+  color: #999999;
+  transition: color 0.3s ease;
+}
+
+.service:hover i.fa.fa-cloud-upload {
+  color: #0080FF;
+}
+
+.service:hover i.fa.fa-hand-peace-o {
+  color: #5FB404;
+}
+
+.service:hover i.fa.fa-user-circle-o {
+  color: #08298A;
+}
+
+.service:hover i.fa.fa-paint-brush {
+  color: #A901DB;
+}
+
+.service:hover i.fa.fa-cubes {
+  color: #FF8000;
+}
+
+.service:hover i.fa.fa-cogs {
+  color: #04B486;
 }
 
 .team-member{
@@ -146,4 +166,8 @@ section:nth-child(odd) {
   font-size: 20px;
   border: 1px solid #c4e1e3;
   resize: none;
+}
+
+.sliders {
+  height: 100%;
 }
