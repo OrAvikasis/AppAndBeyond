@@ -171,3 +171,40 @@ section:nth-child(odd) {
 .sliders {
   height: 100%;
 }
+
+.ambulance-container {
+  width: 500px;
+  overflow-x: hidden;
+}
+
+.ambulance-and-light {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 100;
+}
+
+.ambulance-and-light .ambulance-vehicle {
+  height: 300px;
+}
+
+.ambulance-and-light .ambulance-light {
+  height: 60px;
+  position: relative;
+  left: -32px;
+  top: 17px;
+}
+
+.ambulance-stones {
+  position: relative;
+  top: 12px;
+  z-index: 110;
+  width: 200%;
+}
+
+.ambulance-clear-road {
+  position: relative;
+  top: -108px;
+  width: 200%;
+}
+

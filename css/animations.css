@@ -1,0 +1,428 @@
+/* AMBULANCE AND LIGHT ANIMATION */
+
+.ambulance-animation{
+  animation: ambulanceAnimation linear 2.0s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: ambulanceAnimation linear 2.0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: ambulanceAnimation linear 2.0s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: ambulanceAnimation linear 2.0s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: ambulanceAnimation linear 2.0s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes ambulanceAnimation{
+  0% {
+    transform:  translate(0px,0px)  rotate(0deg) ;
+  }
+  7% {
+    transform:  translate(7px,-25px)  rotate(4deg) ;
+  }
+  16% {
+    transform:  translate(3px,-22px)  rotate(1deg) ;
+  }
+  22% {
+    transform:  translate(3px,0px)  rotate(-1deg) ;
+  }
+  29% {
+    transform:  translate(-4px,-17px)  rotate(-4deg) ;
+  }
+  36% {
+    transform:  translate(-7px,-15px)  rotate(-6deg) ;
+  }
+  42% {
+    transform:  translate(-7px,0px)  ;
+  }
+  50% {
+    transform:  translate(-7px,-5px)  ;
+  }
+  58% {
+    transform:  translate(-7px,-6px)  ;
+  }
+  65% {
+    transform:  translate(-7px,0px)  ;
+  }
+  72% {
+    transform:  translate(-7px,-8px)  ;
+  }
+  78% {
+    transform:  translate(-7px,-2px)  ;
+  }
+  83% {
+    transform:  translate(-7px,-6px)  ;
+  }
+  89% {
+    transform:  translate(-7px,0px)  ;
+  }
+  95% {
+    transform:  translate(-7px,-7px)  ;
+  }
+  100% {
+    transform:  translate(-7px,0px)  rotate(0deg) ;
+  }
+}
+
+@-moz-keyframes ambulanceAnimation{
+  0% {
+    -moz-transform:  translate(0px,0px)  rotate(0deg) ;
+  }
+  7% {
+    -moz-transform:  translate(7px,-25px)  rotate(4deg) ;
+  }
+  16% {
+    -moz-transform:  translate(3px,-22px)  rotate(1deg) ;
+  }
+  22% {
+    -moz-transform:  translate(3px,0px)  rotate(-1deg) ;
+  }
+  29% {
+    -moz-transform:  translate(-4px,-17px)  rotate(-4deg) ;
+  }
+  36% {
+    -moz-transform:  translate(-7px,-15px)  rotate(-6deg) ;
+  }
+  42% {
+    -moz-transform:  translate(-7px,0px)  ;
+  }
+  50% {
+    -moz-transform:  translate(-7px,-5px)  ;
+  }
+  58% {
+    -moz-transform:  translate(-7px,-6px)  ;
+  }
+  65% {
+    -moz-transform:  translate(-7px,0px)  ;
+  }
+  72% {
+    -moz-transform:  translate(-7px,-8px)  ;
+  }
+  78% {
+    -moz-transform:  translate(-7px,-2px)  ;
+  }
+  83% {
+    -moz-transform:  translate(-7px,-6px)  ;
+  }
+  89% {
+    -moz-transform:  translate(-7px,0px)  ;
+  }
+  95% {
+    -moz-transform:  translate(-7px,-7px)  ;
+  }
+  100% {
+    -moz-transform:  translate(-7px,0px)  rotate(0deg) ;
+  }
+}
+
+@-webkit-keyframes ambulanceAnimation {
+  0% {
+    -webkit-transform:  translate(0px,0px)  rotate(0deg) ;
+  }
+  7% {
+    -webkit-transform:  translate(7px,-25px)  rotate(4deg) ;
+  }
+  16% {
+    -webkit-transform:  translate(3px,-22px)  rotate(1deg) ;
+  }
+  22% {
+    -webkit-transform:  translate(3px,0px)  rotate(-1deg) ;
+  }
+  29% {
+    -webkit-transform:  translate(-4px,-17px)  rotate(-4deg) ;
+  }
+  36% {
+    -webkit-transform:  translate(-7px,-15px)  rotate(-6deg) ;
+  }
+  42% {
+    -webkit-transform:  translate(-7px,0px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(-7px,-5px)  ;
+  }
+  58% {
+    -webkit-transform:  translate(-7px,-6px)  ;
+  }
+  65% {
+    -webkit-transform:  translate(-7px,0px)  ;
+  }
+  72% {
+    -webkit-transform:  translate(-7px,-8px)  ;
+  }
+  78% {
+    -webkit-transform:  translate(-7px,-2px)  ;
+  }
+  83% {
+    -webkit-transform:  translate(-7px,-6px)  ;
+  }
+  89% {
+    -webkit-transform:  translate(-7px,0px)  ;
+  }
+  95% {
+    -webkit-transform:  translate(-7px,-7px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(-7px,0px)  rotate(0deg) ;
+  }
+}
+
+@-o-keyframes ambulanceAnimation {
+  0% {
+    -o-transform:  translate(0px,0px)  rotate(0deg) ;
+  }
+  7% {
+    -o-transform:  translate(7px,-25px)  rotate(4deg) ;
+  }
+  16% {
+    -o-transform:  translate(3px,-22px)  rotate(1deg) ;
+  }
+  22% {
+    -o-transform:  translate(3px,0px)  rotate(-1deg) ;
+  }
+  29% {
+    -o-transform:  translate(-4px,-17px)  rotate(-4deg) ;
+  }
+  36% {
+    -o-transform:  translate(-7px,-15px)  rotate(-6deg) ;
+  }
+  42% {
+    -o-transform:  translate(-7px,0px)  ;
+  }
+  50% {
+    -o-transform:  translate(-7px,-5px)  ;
+  }
+  58% {
+    -o-transform:  translate(-7px,-6px)  ;
+  }
+  65% {
+    -o-transform:  translate(-7px,0px)  ;
+  }
+  72% {
+    -o-transform:  translate(-7px,-8px)  ;
+  }
+  78% {
+    -o-transform:  translate(-7px,-2px)  ;
+  }
+  83% {
+    -o-transform:  translate(-7px,-6px)  ;
+  }
+  89% {
+    -o-transform:  translate(-7px,0px)  ;
+  }
+  95% {
+    -o-transform:  translate(-7px,-7px)  ;
+  }
+  100% {
+    -o-transform:  translate(-7px,0px)  rotate(0deg) ;
+  }
+}
+
+@-ms-keyframes ambulanceAnimation {
+  0% {
+    -ms-transform:  translate(0px,0px)  rotate(0deg) ;
+  }
+  7% {
+    -ms-transform:  translate(7px,-25px)  rotate(4deg) ;
+  }
+  16% {
+    -ms-transform:  translate(3px,-22px)  rotate(1deg) ;
+  }
+  22% {
+    -ms-transform:  translate(3px,0px)  rotate(-1deg) ;
+  }
+  29% {
+    -ms-transform:  translate(-4px,-17px)  rotate(-4deg) ;
+  }
+  36% {
+    -ms-transform:  translate(-7px,-15px)  rotate(-6deg) ;
+  }
+  42% {
+    -ms-transform:  translate(-7px,0px)  ;
+  }
+  50% {
+    -ms-transform:  translate(-7px,-5px)  ;
+  }
+  58% {
+    -ms-transform:  translate(-7px,-6px)  ;
+  }
+  65% {
+    -ms-transform:  translate(-7px,0px)  ;
+  }
+  72% {
+    -ms-transform:  translate(-7px,-8px)  ;
+  }
+  78% {
+    -ms-transform:  translate(-7px,-2px)  ;
+  }
+  83% {
+    -ms-transform:  translate(-7px,-6px)  ;
+  }
+  89% {
+    -ms-transform:  translate(-7px,0px)  ;
+  }
+  95% {
+    -ms-transform:  translate(-7px,-7px)  ;
+  }
+  100% {
+    -ms-transform:  translate(-7px,0px)  rotate(0deg) ;
+  }
+}
+
+/* END OF AMBULANCE AND LIGHT ANIMATION */
+
+/* LIGHT COLOR ANIMATION */
+
+@keyframes color-animation {
+ 0% {
+  stroke: #e60e0e;
+ }
+ 50% {
+  stroke: rgba(0, 0, 0, 0);
+ } 
+ 100% {
+    stroke: #0e68ee;
+ } 
+}
+
+.ambulance-light .line-style {
+  animation: color-animation 0.8s infinite linear alternate;
+}
+
+/* END LIGHT COLOR ANIMATION */
+
+/* AMBULANCE ROAD STONES ANIMATION */
+.ambulance-stones{
+  animation: roadStonesAnimation linear 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: roadStonesAnimation linear 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: roadStonesAnimation linear 5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: roadStonesAnimation linear 5s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: roadStonesAnimation linear 5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes roadStonesAnimation{
+  0% {
+    transform:  translate(-1200px,-26px)  ;
+  }
+  100% {
+    transform:  translate(609px,-26px)  ;
+  }
+}
+
+@-moz-keyframes roadStonesAnimation{
+  0% {
+    -moz-transform:  translate(-1200px,-26px)  ;
+  }
+  100% {
+    -moz-transform:  translate(609px,-26px)  ;
+  }
+}
+
+@-webkit-keyframes roadStonesAnimation {
+  0% {
+    -webkit-transform:  translate(-1200px,-26px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(609px,-26px)  ;
+  }
+}
+
+@-o-keyframes roadStonesAnimation {
+  0% {
+    -o-transform:  translate(-1200px,-26px)  ;
+  }
+  100% {
+    -o-transform:  translate(609px,-26px)  ;
+  }
+}
+
+@-ms-keyframes roadStonesAnimation {
+  0% {
+    -ms-transform:  translate(-1200px,-26px)  ;
+  }
+  100% {
+    -ms-transform:  translate(609px,-26px)  ;
+  }
+}
+/* END OF AMBULANCE ROAD STONES ANIMATION */
+
+
+
+/* AMBULANCE ROAD ANIMATION */
+.ambulance-clear-road{
+  animation: roadAnimation linear 1.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: roadAnimation linear 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: roadAnimation linear 1.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: roadAnimation linear 1.5s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: roadAnimation linear 1.5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes roadAnimation{
+  0% {
+    transform:  translate(-350px,-26px)  ;
+  }
+  100% {
+    transform:  translate(9px,-26px)  ;
+  }
+}
+
+@-moz-keyframes roadAnimation{
+  0% {
+    -moz-transform:  translate(-350px,-26px)  ;
+  }
+  100% {
+    -moz-transform:  translate(9px,-26px)  ;
+  }
+}
+
+@-webkit-keyframes roadAnimation {
+  0% {
+    -webkit-transform:  translate(-350px,-26px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(9px,-26px)  ;
+  }
+}
+
+@-o-keyframes roadAnimation {
+  0% {
+    -o-transform:  translate(-350px,-26px)  ;
+  }
+  100% {
+    -o-transform:  translate(9px,-26px)  ;
+  }
+}
+
+@-ms-keyframes roadAnimation {
+  0% {
+    -ms-transform:  translate(-350px,-26px)  ;
+  }
+  100% {
+    -ms-transform:  translate(9px,-26px)  ;
+  }
+}
+/* END OF AMBULANCE ROAD ANIMATION */
