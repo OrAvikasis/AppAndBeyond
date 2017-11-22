@@ -208,3 +208,28 @@ section:nth-child(odd) {
   width: 200%;
 }
 
+.sewingmachine{
+  z-index: 100;
+  position: relative;
+}
+
+.needle{
+  height: 74px;
+  position: relative;
+  bottom: 232px;
+  left: 160px;
+}
+
+.loader{
+  width: 97px;
+  position: relative;
+  bottom: 80px;
+  left: 200px;
+}
+
+.cone{
+  width: 80px;
+  position: relative;
+  bottom: 140px;
+  right: 212px;
+}
