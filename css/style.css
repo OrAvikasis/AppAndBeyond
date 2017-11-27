@@ -233,3 +233,23 @@ section:nth-child(odd) {
   bottom: 140px;
   right: 212px;
 }
+
+.stand-left {
+  position: relative;
+  height: 250px;
+  right: 150px;
+}
+
+.stand-right {
+  position: relative;
+  height: 250px;
+  bottom: 397px;
+  right: 50px;
+}
+
+.cloud {
+  position: relative;
+  height: 140px;
+  bottom: 212px;
+  right: 46px;
+}
