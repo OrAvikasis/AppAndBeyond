@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.3/tiny-slider.css">      
-  <link rel="icon" href="http://example.com/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />    
+  <!-- <link rel="icon" href="http://example.com/favicon.png"> -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/animations.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.3.3/min/tiny-slider.js"></script>      
+  <link rel="stylesheet" type="text/css" href="css/animations.css">  
   <title>App And Beyond</title>
 </head>
 
@@ -16,9 +14,10 @@
 <body>
   <div class='content'>
     <section>
-      <div class="header-slider">
-        <div class='slide-item'>
-          <div class='ambulance-container'>
+      <h1>App And Beyond</h1>
+      <div class="header-blocks">
+        <div id="ambulance" class='block-item'>
+          <div class="animation-container">
             <div class='ambulance-and-light ambulance-animation'>
               <svg class='ambulance-light' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.91 162.85">
                 <defs>
@@ -34,44 +33,32 @@
             <img class='ambulance-stones' src='images/ambulance-stones.svg'>
             <img class='ambulance-clear-road' src='images/ambulance-road.png'>
           </div>
-        </div>
+        </div> 
         
-        <div class='slide-item'>
-          <div>
+        <div id="sewingmachine" class='block-item'>
+          <div class="animation-container">
             <img class="sewingmachine" src="images/sewing-machine.svg"/>
-          </div>   
-          <div>
             <img class="needle" src="images/needle.svg"/>
           </div>
         </div>
         
-        <div class='slide-item'>
-          <div>
+        <div id="loader" class='block-item'>
+          <div class="animation-container">
             <img class="iphone" src="images/iphoneX.svg"/>
-          </div>
-          <div>
             <img class="loader" src="images/loader.svg"/>
-          </div>
-          <div>
             <img class="cone" src="images/cone.svg"/>
           </div>
-          
         </div>
-
-        <div class='slide-item'>
-            <div>
-              <img class="stand-left" src="images/standleft.svg"/>
-            </div>
-            <div>
-              <img class="cloud" src="images/cloud.svg"/>
-            </div>
-            <div>
-              <img class="stand-right" src="images/standright.svg"/>
-            </div>  
+        
+        <div id="lifter" class='block-item'>
+          <div class="animation-container">
+            <img class="stand-left" src="images/standleft.svg"/>
+            <img class="cloud" src="images/cloud.svg"/>
+            <img class="stand-right" src="images/standright.svg"/>  
           </div>
-
+        </div> 
       </div>
-
+      
     </div>
     <!-- <ul class='my-nav'>
       <li>+</li>
@@ -184,23 +171,7 @@
     </div>
   </section>
 </div>
-<script>
-  var slider = tns({
-    container: "vertical",
-    axis: "vertical",
-    speed: 400,
-    items: 1,
-    slideBy: 'page',
-    autoplay: true,
-    controls: false,
-    autoplayButtonOutput: false,
-  }); 
-  
-  
-  // NOTE: 
-  // prior to v2.0.2, options "container", "controlsContainer", "navContainer" and "autoplayButton" still need to be DOM elements.
-  // e.g. container: document.querySelector('.my-slider'),
-</script>
+
 
 </body>
 
