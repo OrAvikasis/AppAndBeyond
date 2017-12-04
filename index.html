@@ -16,48 +16,50 @@
     <section>
       <h1>App And Beyond</h1>
       <div class="header-blocks">
-        <div id="ambulance" class='block-item'>
-          <div class="animation-container">
-            <div class='ambulance-and-light ambulance-animation'>
-              <svg class='ambulance-light' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.91 162.85">
-                <defs>
-                  <style>.line-style{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:15px;}</style>
-                </defs>
-                <title>ambulance-light</title>
-                <line class="line-style" x1="3.31" y1="82.32" x2="99.54" y2="154.99"/>
-                <line class="line-style" x1="172.18" y1="0.04" x2="171.18" y2="131.04"/>
-                <line class="line-style" x1="340.18" y1="71.04" x2="244.8" y2="158.8"/>  
-              </svg>
-              <img class='ambulance-vehicle' src='images/ambulance.svg'>    
+
+          <div data-subtitle='im an ambulance!' id="ambulance" class='block-item'>
+            <div class="animation-container">
+              <div class='ambulance-and-light ambulance-animation'>
+                <svg class='ambulance-light' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 343.91 162.85">
+                  <defs>
+                    <style>.line-style{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:15px;}</style>
+                  </defs>
+                  <title>ambulance-light</title>
+                  <line class="line-style" x1="3.31" y1="82.32" x2="99.54" y2="154.99"/>
+                  <line class="line-style" x1="172.18" y1="0.04" x2="171.18" y2="131.04"/>
+                  <line class="line-style" x1="340.18" y1="71.04" x2="244.8" y2="158.8"/>  
+                </svg>
+                <img class='ambulance-vehicle' src='images/ambulance.svg'>    
+              </div>
+              <img class='ambulance-stones' src='images/ambulance-stones.svg'>
+              <img class='ambulance-clear-road' src='images/ambulance-road.png'>
             </div>
-            <img class='ambulance-stones' src='images/ambulance-stones.svg'>
-            <img class='ambulance-clear-road' src='images/ambulance-road.png'>
+          </div> 
+          
+          <div data-subtitle='im a sewingmachine!' id="sewingmachine" class='block-item'>
+            <div class="animation-container">
+              <img class="sewingmachine" src="images/sewing-machine.svg"/>
+              <img class="needle" src="images/needle.svg"/>
+            </div>
           </div>
-        </div> 
-        
-        <div id="sewingmachine" class='block-item'>
-          <div class="animation-container">
-            <img class="sewingmachine" src="images/sewing-machine.svg"/>
-            <img class="needle" src="images/needle.svg"/>
+          
+          <div data-subtitle='im a loader!' id="loader" class='block-item'>
+            <div class="animation-container">
+              <img class="iphone" src="images/iphoneX.svg"/>
+              <img class="loader" src="images/loader.svg"/>
+              <img class="cone" src="images/cone.svg"/>
+            </div>
           </div>
-        </div>
-        
-        <div id="loader" class='block-item'>
-          <div class="animation-container">
-            <img class="iphone" src="images/iphoneX.svg"/>
-            <img class="loader" src="images/loader.svg"/>
-            <img class="cone" src="images/cone.svg"/>
-          </div>
-        </div>
-        
-        <div id="lifter" class='block-item'>
-          <div class="animation-container">
-            <img class="stand-left" src="images/standleft.svg"/>
-            <img class="cloud" src="images/cloud.svg"/>
-            <img class="stand-right" src="images/standright.svg"/>  
-          </div>
-        </div> 
+         
+          <div data-subtitle='im a lifter!' id="lifter" class='block-item'>
+            <div class="animation-container">
+              <img class="stand-left" src="images/standleft.svg"/>
+              <img class="cloud" src="images/cloud.svg"/>
+              <img class="stand-right" src="images/standright.svg"/>  
+            </div>
+          </div> 
       </div>
+      <h2 data-default='We Are The Best' id="visible-subtitle"></h2>
       
     </div>
     <!-- <ul class='my-nav'>
@@ -172,7 +174,7 @@
   </section>
 </div>
 
-
+<script src="js/main.js"></script>
 </body>
 
 </html>

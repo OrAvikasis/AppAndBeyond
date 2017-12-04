@@ -167,7 +167,6 @@ section:nth-child(odd) {
   border: 1px solid #c4e1e3;
   resize: none;
 }
-
 #ambulance:hover {
   background: #f3c551;
 }
@@ -176,39 +175,39 @@ section:nth-child(odd) {
   display: flex;
   flex-direction: column;
   position: relative;
+  top: 1em;
   z-index: 100;
-  top: 25px;
 }
 
 .ambulance-and-light .ambulance-vehicle {
-  height: 150px;
+  height: 9em;
 }
 
 .ambulance-and-light .ambulance-light {
-  height: 30px;
   position: relative;
-  left: -20px;
-  top: 9px;
+  width: 4.8em;
+  left: 4.1em;
+  top: 0.5em;
 }
 
 .ambulance-stones {
   position: relative;
-  top: 20px;
+  width: 32em;
+  top: 1.5em;
   z-index: 110;
-  width: 200%;
 }
 
 .ambulance-clear-road {
-  position: relative;
-  top: -50px;
-  width: 200%;
+    position: relative;
+    width: 34em;
+    top: -3.6em;
 }
 
 .sewingmachine{
   z-index: 100;
   position: relative;
-  top: 30px;
-  height: 190px;
+  top: 2.0em;
+  height: 13.0em;
 }
 
 #sewingmachine:hover {
@@ -216,31 +215,31 @@ background: pink;
 }
 
 .needle{
-  height: 74px;
+  height: 5.0em;
   position: relative;
-  bottom: 15px;
-  left: -39px;
+  bottom: 1.0em;
+  left: -2.6em;
 }
 
 .iphone{
-  top: 154px;
-  right: 0px;
-  width: 230px;
+  top: 9em;
+  right: 0.0em;
+  width: 16.0em;
   position: relative;
 }
 
 .loader{
-  width: 55px;
+  width: 3.0em;
   position: relative;
-  top: 80px;
-  right: 10px;
+  top: 2.8em;
+  right: 0.0em;
 }
 
 .cone{
-  width: 40px;
+  width: 4em;
   position: relative;
-  right: 100px;
-  top: 120px;
+  right: 6em;
+  top: 6em;
 }
 
 #loader:hover {
@@ -249,23 +248,23 @@ background: pink;
 
 .stand-left {
   position: relative;
-  height: 200px;
-  right: 60px;
-  bottom: -36px;
+  height: 12em;
+  right: 3.5em;
+  bottom: -2.5em;
 }
 
 .stand-right {
   position: relative;
-  height: 200px;
-  bottom: 271px;
-  right: -15px;
+  height: 12em;
+  bottom: 17em;
+  right: -1em;
 }
 
 .cloud {
   position: relative;
-  height: 100px;
-  bottom: 120px;
-  right: -16px;
+  height: 7.0em;
+  bottom: 8.0em;
+  right: -1.0em;
 }
 
 #lifter:hover {
@@ -276,23 +275,24 @@ background: pink;
   display: flex;
   justify-content: center;
   width: 80%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .block-item {
-  width: 250px;
+  width: 15vw; /*250px;*/
+  height: 15vw; /*250px;*/
+  font-size: 1vw;
   overflow: hidden;
-  height: 250px;
   background-color: #b3d2d5;
-  margin: 0;
+  margin: 0.7vw;
   /* filter: grayscale(100%); */
   transition: all 0.3s;
-  transform: scale(0.8);
+  /* transform: scale(1); */
 }
 
 .block-item:hover {
   /* filter: grayscale(0%); */
-  transform: scale(1);
+  transform: scale(1.1);
 }
 
 .block-item:hover .animation-container {
@@ -303,3 +303,4 @@ background: pink;
 .animation-container {
   filter: grayscale(100%)
 }
+
