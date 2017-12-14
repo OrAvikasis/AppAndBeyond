@@ -2,6 +2,13 @@ h1, h2, h3, h4, p, li, section, span, div, button, textarea, input {
   font-family: 'Ubuntu', sans-serif;
   color: #555555; }
 
+h1 {
+  font-size: 4rem;
+  margin: .67em 0; }
+
+h2 {
+  font-size: 2.5rem; }
+
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #999999; }
 
@@ -305,3 +312,30 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+#main-section {
+  min-height: 90vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  #main-section .ambulance-block-subtitle {
+    color: #f3c551; }
+  #main-section .sewingmachine-block-subtitle {
+    color: pink; }
+  #main-section .loader-block-subtitle {
+    color: #acd864; }
+  #main-section .lifter-block-subtitle {
+    color: #5aa9e3; }
+
+.more-information {
+  position: absolute;
+  padding: 0.5em 0;
+  background-color: #c21a4d;
+  width: 15vw;
+  z-index: 1000;
+  opacity: 00.7;
+  display: none;
+  color: white; }
+
+.block-item:hover .more-information {
+  display: block; }

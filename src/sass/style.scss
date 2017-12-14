@@ -3,6 +3,15 @@ h1, h2, h3, h4, p, li, section, span, div, button, textarea, input {
   color: #555555;
 }
 
+h1 {
+  font-size: 4rem;
+  margin: .67em 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 input::placeholder, textarea::placeholder  {
   color: #999999;
 }
@@ -320,4 +329,37 @@ section {
 
 .block-item-pair {
   display: flex;
+}
+
+#main-section {
+  min-height: 90vh;
+  justify-content: flex-start;
+  .ambulance-block-subtitle {
+    color: #f3c551;
+  }
+  .sewingmachine-block-subtitle{
+    color: pink;
+  }
+  .loader-block-subtitle {
+    color: rgb(172, 216, 100);
+  }
+.lifter-block-subtitle {
+  color: #5aa9e3;
+}
+
+}
+
+.more-information {
+  position: absolute;
+  padding: 0.5em 0;
+  background-color: rgb(194, 26, 77);
+  width: 15vw;
+  z-index: 1000;
+  opacity: 00.7;
+  display: none;
+  color: white;
+}
+
+.block-item:hover .more-information {
+  display: block;
 }
